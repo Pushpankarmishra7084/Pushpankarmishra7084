@@ -147,22 +147,7 @@ When I build, I optimize for:
 
 <br/>
 
-## `08` Contributions
 
-<div align="center">
-
-<!-- Live, dynamically-computed GitHub stats — not static numbers -->
-<img src="https://github-readme-stats.vercel.app/api?username=Pushpankarmishra7084&show_icons=true&theme=dark&bg_color=0D1220&title_color=22D3EE&icon_color=4C8DFF&text_color=B7C4DB&border_color=1C2534&hide_border=false" width="49%" alt="GitHub stats" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Pushpankarmishra7084&layout=compact&theme=dark&bg_color=0D1220&title_color=22D3EE&text_color=B7C4DB&border_color=1C2534&hide_border=false" width="38%" alt="Top languages" />
-
-<br/><br/>
-
-<!-- Auto-generated daily via .github/workflows/profile-3d-contrib.yml — see NOTES.md for setup -->
-<img src="./workflows/profile-3d-contrib.yml/profile-night-rainbow.svg" width="100%" alt="3D contribution graph" />
-
-</div>
-
-<br/>
 
 ## `09` Connect
 
