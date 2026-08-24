@@ -1,9 +1,3 @@
-<!--
-  README for github.com/Pushpankarmishra7084/Pushpankarmishra7084
-  Sections marked <!-- CONFIRM: ... --> need a real link/number from you before going live.
-  See NOTES.md for the full list.
--->
-
 <div align="center">
 
 <img src="./assets/hero.svg" width="100%" alt="Pushpankar Mishra — Full Stack Developer" />
