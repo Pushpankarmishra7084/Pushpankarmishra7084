@@ -1,9 +1,10 @@
-
 <div align="center">
-
-<img src="./hero.svg" width="100%" alt="Pushpankar Mishra — Full Stack Developer" />
-
-<br/>
+  <img
+    src="./assets/pushpankar-3d-wireframe-github.gif"
+    width="100%"
+    alt="Pushpankar Mishra — 3D Wireframe Developer"
+  />
+</div>
 
 <a href="https://github.com/Pushpankarmishra7084">
   <img src="https://img.shields.io/badge/GitHub-Pushpankarmishra7084-0D1220?style=flat-square&logo=github&logoColor=E9EFFB&labelColor=05070C" />
