@@ -1,0 +1,100 @@
+<svg width="900" height="260" viewBox="0 0 900 260" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#060910"/>
+      <stop offset="55%" stop-color="#0A0F1A"/>
+      <stop offset="100%" stop-color="#0D1220"/>
+    </linearGradient>
+
+    <linearGradient id="accentLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#22D3EE"/>
+      <stop offset="50%" stop-color="#4C8DFF"/>
+      <stop offset="100%" stop-color="#9B7BFF"/>
+    </linearGradient>
+
+    <radialGradient id="orbCyan" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="orbViolet" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#9B7BFF" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#9B7BFF" stop-opacity="0"/>
+    </radialGradient>
+
+    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
+      <path d="M 34 0 L 0 0 0 34" fill="none" stroke="#16202F" stroke-width="1"/>
+    </pattern>
+
+    <filter id="softBlur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+
+    <clipPath id="panelClip">
+      <rect x="0" y="0" width="900" height="260" rx="18"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#panelClip)">
+    <rect width="900" height="260" fill="url(#bg)"/>
+    <rect width="900" height="260" fill="url(#grid)" opacity="0.55"/>
+
+    <!-- ambient floating glow orbs -->
+    <circle cx="120" cy="60" r="140" fill="url(#orbCyan)" filter="url(#softBlur)">
+      <animateTransform attributeName="transform" type="translate" values="0 0; 12 10; 0 0" dur="9s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="800" cy="210" r="160" fill="url(#orbViolet)" filter="url(#softBlur)">
+      <animateTransform attributeName="transform" type="translate" values="0 0; -14 -8; 0 0" dur="11s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- border -->
+    <rect x="1" y="1" width="898" height="258" rx="17" fill="none" stroke="#1C2534" stroke-width="1.5"/>
+    <rect x="0" y="0" width="900" height="4" fill="url(#accentLine)"/>
+
+    <!-- terminal dots -->
+    <circle cx="34" cy="30" r="5.5" fill="#3A4457"/>
+    <circle cx="54" cy="30" r="5.5" fill="#3A4457"/>
+    <circle cx="74" cy="30" r="5.5" fill="#3A4457"/>
+    <text x="94" y="34" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" fill="#576079">~/pushpankar-mishra — zsh</text>
+
+    <!-- prompt line 1 -->
+    <text x="60" y="100" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="15" fill="#3ECF8E">guest@dev-portfolio</text>
+    <text x="222" y="100" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="15" fill="#576079">:~$ whoami</text>
+
+    <!-- typed name -->
+    <g>
+      <clipPath id="typeClip">
+        <rect x="58" y="118" height="46" width="0">
+          <animate attributeName="width" from="0" to="560" begin="0.3s" dur="1.6s" fill="freeze" calcMode="spline" keySplines="0.2 0 0.1 1"/>
+        </rect>
+      </clipPath>
+      <text clip-path="url(#typeClip)" x="60" y="152" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="42" font-weight="700" fill="#E9EFFB">Pushpankar Mishra</text>
+      <rect x="60" y="118" width="3" height="40" fill="#22D3EE">
+        <animate attributeName="x" from="60" to="616" begin="0.3s" dur="1.6s" fill="freeze" calcMode="spline" keySplines="0.2 0 0.1 1"/>
+        <animate attributeName="opacity" values="1;0;1" dur="0.9s" begin="1.9s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+
+    <!-- tagline -->
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="2.0s" dur="0.6s" fill="freeze"/>
+      <text x="60" y="192" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="16" fill="#9FB0CC">Full Stack Developer · MERN &amp; Next.js · building real-time, production-grade web systems</text>
+    </g>
+
+    <!-- status pills -->
+    <g opacity="0" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="12.5">
+      <animate attributeName="opacity" from="0" to="1" begin="2.4s" dur="0.6s" fill="freeze"/>
+
+      <rect x="60" y="212" width="98" height="28" rx="14" fill="#0F1826" stroke="#233047"/>
+      <circle cx="76" cy="226" r="4" fill="#3ECF8E"/>
+      <text x="86" y="230" fill="#B7C4DB">Building</text>
+
+      <rect x="168" y="212" width="86" height="28" rx="14" fill="#0F1826" stroke="#233047"/>
+      <circle cx="184" cy="226" r="4" fill="#22D3EE"/>
+      <text x="194" y="230" fill="#B7C4DB">MERN</text>
+
+      <rect x="264" y="212" width="150" height="28" rx="14" fill="#0F1826" stroke="#233047"/>
+      <circle cx="280" cy="226" r="4" fill="#9B7BFF"/>
+      <text x="290" y="230" fill="#B7C4DB">Open to opportunities</text>
+    </g>
+  </g>
+</svg>

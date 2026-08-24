@@ -1,0 +1,80 @@
+<svg width="900" height="430" viewBox="0 0 900 430" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#060910"/>
+      <stop offset="100%" stop-color="#0D1220"/>
+    </linearGradient>
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#22D3EE"/>
+      <stop offset="50%" stop-color="#4C8DFF"/>
+      <stop offset="100%" stop-color="#9B7BFF"/>
+    </linearGradient>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <clipPath id="panelClip2">
+      <rect x="0" y="0" width="900" height="430" rx="18"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#panelClip2)">
+    <rect width="900" height="430" fill="url(#bg2)"/>
+    <rect x="1" y="1" width="898" height="428" rx="17" fill="none" stroke="#1C2534" stroke-width="1.5"/>
+
+    <text x="36" y="46" font-family="SFMono-Regular, Consolas, Menlo, monospace" font-size="13" fill="#576079">// engineering pipeline</text>
+    <text x="36" y="72" font-family="-apple-system,'Segoe UI',sans-serif" font-size="22" font-weight="700" fill="#E9EFFB">Request → Response Architecture</text>
+
+    <!-- central spine -->
+    <line x1="120" y1="112" x2="120" y2="378" stroke="url(#lineGrad)" stroke-width="2.5" opacity="0.8"/>
+
+    <!-- flowing pulse along spine -->
+    <circle r="5" fill="#22D3EE" filter="url(#glow)">
+      <animateMotion dur="3.6s" repeatCount="indefinite" path="M120,112 L120,378"/>
+      <animate attributeName="fill" values="#22D3EE;#4C8DFF;#9B7BFF;#22D3EE" dur="3.6s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- node 1 -->
+    <g font-family="-apple-system,'Segoe UI',sans-serif">
+      <circle cx="120" cy="120" r="7" fill="#0D1220" stroke="#22D3EE" stroke-width="2.5"/>
+      <rect x="150" y="94" width="710" height="56" rx="10" fill="#0F1826" stroke="#1E2A3D"/>
+      <text x="170" y="118" font-size="14.5" font-weight="700" fill="#E9EFFB">Client Layer</text>
+      <text x="170" y="138" font-size="12.5" fill="#8B98AC" font-family="SFMono-Regular, Consolas, Menlo, monospace">React.js · Next.js · Tailwind CSS</text>
+    </g>
+
+    <!-- node 2 -->
+    <g font-family="-apple-system,'Segoe UI',sans-serif">
+      <circle cx="120" cy="187" r="7" fill="#0D1220" stroke="#4C8DFF" stroke-width="2.5"/>
+      <rect x="150" y="161" width="710" height="56" rx="10" fill="#0F1826" stroke="#1E2A3D"/>
+      <text x="170" y="185" font-size="14.5" font-weight="700" fill="#E9EFFB">Application Layer</text>
+      <text x="170" y="205" font-size="12.5" fill="#8B98AC" font-family="SFMono-Regular, Consolas, Menlo, monospace">Node.js · Express.js · REST APIs · JWT Auth</text>
+    </g>
+
+    <!-- node 3 -->
+    <g font-family="-apple-system,'Segoe UI',sans-serif">
+      <circle cx="120" cy="254" r="7" fill="#0D1220" stroke="#7C8AFF" stroke-width="2.5"/>
+      <rect x="150" y="228" width="710" height="56" rx="10" fill="#0F1826" stroke="#1E2A3D"/>
+      <text x="170" y="252" font-size="14.5" font-weight="700" fill="#E9EFFB">Real-Time Layer</text>
+      <text x="170" y="272" font-size="12.5" fill="#8B98AC" font-family="SFMono-Regular, Consolas, Menlo, monospace">Socket.IO · WebSockets</text>
+    </g>
+
+    <!-- node 4 -->
+    <g font-family="-apple-system,'Segoe UI',sans-serif">
+      <circle cx="120" cy="321" r="7" fill="#0D1220" stroke="#9B7BFF" stroke-width="2.5"/>
+      <rect x="150" y="295" width="710" height="56" rx="10" fill="#0F1826" stroke="#1E2A3D"/>
+      <text x="170" y="319" font-size="14.5" font-weight="700" fill="#E9EFFB">Data Layer</text>
+      <text x="170" y="339" font-size="12.5" fill="#8B98AC" font-family="SFMono-Regular, Consolas, Menlo, monospace">MongoDB · MySQL</text>
+    </g>
+
+    <!-- node 5 -->
+    <g font-family="-apple-system,'Segoe UI',sans-serif">
+      <circle cx="120" cy="378" r="7" fill="#0D1220" stroke="#C77DFF" stroke-width="2.5"/>
+      <rect x="150" y="362" width="710" height="44" rx="10" fill="#0F1826" stroke="#1E2A3D"/>
+      <text x="170" y="386" font-size="13.5" font-weight="700" fill="#E9EFFB">Version Control &amp; Delivery</text>
+      <text x="430" y="386" font-size="12" fill="#8B98AC" font-family="SFMono-Regular, Consolas, Menlo, monospace">Git · GitHub</text>
+    </g>
+  </g>
+</svg>
