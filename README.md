@@ -1,6 +1,6 @@
 <div align="center">
   <img
-    src="./assets/pushpankar-3d-wireframe-github.gif"
+    src="./pushpankar-3d-wireframe-github.gif"
     width="100%"
     alt="Pushpankar Mishra — 3D Wireframe Developer"
   />
