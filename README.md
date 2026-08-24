@@ -1,6 +1,12 @@
+<!--
+  README for github.com/Pushpankarmishra7084/Pushpankarmishra7084
+  Sections marked <!-- CONFIRM: ... --> need a real link/number from you before going live.
+  See NOTES.md for the full list.
+-->
+
 <div align="center">
 
-<img src="./hero.svg" width="100%" alt="Pushpankar Mishra — Full Stack Developer" />
+<img src="./assets/hero.svg" width="100%" alt="Pushpankar Mishra — Full Stack Developer" />
 
 <br/>
 
@@ -91,7 +97,7 @@ I learn fastest by rebuilding things that already work — I've cloned parts of 
 ## `04` Engineering Pipeline
 
 <div align="center">
-<img src="./constellation.svg" width="100%" alt="Client to database architecture flow" />
+<img src="./assets/constellation.svg" width="100%" alt="Client to database architecture flow" />
 </div>
 
 <br/>
@@ -157,7 +163,7 @@ When I build, I optimize for:
 <br/><br/>
 
 <!-- Auto-generated daily via .github/workflows/profile-3d-contrib.yml — see NOTES.md for setup -->
-<img src="./profile-3d-contrib.ybl/profile-night-rainbow.svg" width="100%" alt="3D contribution graph" />
+<img src="./profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="3D contribution graph" />
 
 </div>
 
