@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/hero.svg" width="100%" alt="Pushpankar Mishra — Full Stack Developer" />
+<img src="./hero.svg" width="100%" alt="Pushpankar Mishra — Full Stack Developer" />
 
 <br/><br/>
 
@@ -115,7 +115,7 @@ I learn by building real applications and exploring how modern products are desi
 
 <div align="center">
 
-<img src="./assets/constellation.svg" width="100%" alt="Client to database architecture flow" />
+<img src="./constellation.svg" width="100%" alt="Client to database architecture flow" />
 
 </div>
 
@@ -185,7 +185,7 @@ When I build, I focus on:
 
 <br/><br/>
 
-<img src="./profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="3D GitHub contribution graph" />
+<img src="./profile-3d-contrib.ybl/profile-night-rainbow.svg" width="100%" alt="3D GitHub contribution graph" />
 
 </div>
 
