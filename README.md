@@ -91,7 +91,7 @@ I learn fastest by rebuilding things that already work — I've cloned parts of 
 ## `04` Engineering Pipeline
 
 <div align="center">
-<img src="./assets/constellation.svg" width="100%" alt="Client to database architecture flow" />
+<img src="./constellation.svg" width="100%" alt="Client to database architecture flow" />
 </div>
 
 <br/>
