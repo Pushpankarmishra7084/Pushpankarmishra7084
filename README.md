@@ -158,7 +158,7 @@ When I build, I optimize for:
 <br/><br/>
 
 <!-- Auto-generated daily via .github/workflows/profile-3d-contrib.yml — see NOTES.md for setup -->
-<img src="./profile-3d-contrib.ybl/profile-night-rainbow.svg" width="100%" alt="3D contribution graph" />
+<img src="./profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="3D contribution graph" />
 
 </div>
 
